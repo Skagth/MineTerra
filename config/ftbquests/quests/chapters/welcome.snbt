@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "30A6D717720DAFCA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "3B2822EE5EF735E9"
+		tasks: [{
+			id: "2196A1DC5DF7D13A"
+			title: "This is the start.."
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Welcome"
+}

@@ -1,0 +1,460 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "explorer"
+	group: ""
+	id: "5197749DE7A17359"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6DFC1B5C048DE626"
+			tasks: [{
+				id: "7C60A4988AD01647"
+				title: "Vacation"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["582304835046C03D"]
+			id: "5B250C0FD20459D8"
+			subtitle: "Magic"
+			tasks: [{
+				biome: "ars_elemental:blazing_forest"
+				id: "49B6304240E5E112"
+				title: "Blazing Forest"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DFC1B5C048DE626"]
+			id: "582304835046C03D"
+			tasks: [{
+				id: "056FBC6195CC0B53"
+				title: "Something magic"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["582304835046C03D"]
+			id: "478B6BBD1DF50CAB"
+			subtitle: "Magic"
+			tasks: [{
+				biome: "ars_elemental:cascading_forest"
+				id: "685B0C1CA657424F"
+				title: "Cascading Forest"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["582304835046C03D"]
+			id: "20DB4E719E85D21B"
+			subtitle: "Magic"
+			tasks: [{
+				biome: "ars_elemental:flashing_forest"
+				id: "3D4D2F9A6C08CE88"
+				title: "Flashing Forest"
+				type: "biome"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["582304835046C03D"]
+			id: "3173D741FE382DA5"
+			subtitle: "Magic"
+			tasks: [{
+				biome: "ars_elemental:flourishing_forest"
+				id: "7E689A38B141EAEA"
+				title: "Flourishing Forest"
+				type: "biome"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["582304835046C03D"]
+			id: "0BBD23B6BF58B031"
+			subtitle: "Magic"
+			tasks: [{
+				biome: "ars_nouveau:archwood_forest"
+				id: "424BC6C32ADA4468"
+				title: "Archwood Forest"
+				type: "biome"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DFC1B5C048DE626"]
+			id: "52D143C47A0AB706"
+			tasks: [{
+				id: "478BC83285D224BF"
+				title: "Plenty of forest"
+				type: "checkmark"
+			}]
+			title: "Rare and Very rare"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52D143C47A0AB706"]
+			description: ["A biome full of rainbow birch and fir trees. The grass is frosted and icy irises spawn here. No hostile mobs spawn here either."]
+			id: "13541930D0AAC8F6"
+			subtitle: "Very rare"
+			tasks: [{
+				biome: "biomesoplenty:auroral_garden"
+				id: "187BEC8BE118A409"
+				title: "Auroral Garden"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52D143C47A0AB706"]
+			description: ["A variant biome of the cherry blossom grove, containing fewer cherry trees, and the addition of bamboo."]
+			id: "521C1F910C3B70D8"
+			subtitle: "[Rare]"
+			tasks: [{
+				biome: "biomesoplenty:bamboo_grove"
+				id: "6533C243AC8C93D0"
+				title: "Bamboo Grove"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52D143C47A0AB706"]
+			description: ["A biome with flowering oak, pink cherry, and white cherry trees. Lots of flowers spawn here, including lilacs, pink daffodils, and peonies."]
+			id: "6B030E19DC50D875"
+			rewards: [{
+				id: "20497486BF65758D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Rare"
+			tasks: [{
+				biome: "biomesoplenty:cherry_blossom_grove"
+				id: "5B21D8E6D81E69F5"
+				title: "Cherry Blossom Grove"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52D143C47A0AB706"]
+			description: ["A magical forest with magic, jacaranda, flowering oak, dark oak, and huge red mushrooms. Lots of flowers, such as glowflowers, blue hydrangeas and pink daffodils spawn here."]
+			id: "6F5655B6442CD42D"
+			subtitle: "Rare"
+			tasks: [{
+				biome: "biomesoplenty:mystic_grove"
+				id: "1B371CDFB9E26919"
+				title: "Mystic Grove"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["52D143C47A0AB706"]
+			description: ["A spooky forest with tall purple umbran trees and wither roses. Bramble also spawns in the forest. It has an ominous sky and water color."]
+			id: "169553653AE9AA1C"
+			subtitle: "Rare"
+			tasks: [{
+				biome: "biomesoplenty:ominous_woods"
+				id: "298EB67D34277C57"
+				title: "Ominous Woods"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["52D143C47A0AB706"]
+			description: ["A biome resembling alpha Minecraft, with the characteristic grass and leaf colors, as well as roses which were removed in 1.7."]
+			id: "5B7468AE01E12742"
+			subtitle: "Very rare"
+			tasks: [{
+				biome: "biomesoplenty:origin_valley"
+				id: "64E5D6D42753237E"
+				title: "Origin Valley"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52D143C47A0AB706"]
+			description: ["A warm, lush coastal biome with palm trees, melons, and some flowers and shrubs. One of the few biomes where White Sand can be found."]
+			id: "281188760E09B6D3"
+			subtitle: "Very rare"
+			tasks: [{
+				biome: "biomesoplenty:tropics"
+				id: "0AF38641156ABB7A"
+				title: "Tropics"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["52D143C47A0AB706"]
+			description: ["A rare biome consisting of Black Sand, basalt, magma blocks, and enormous pools of surface lava."]
+			id: "6545C2139EACF38B"
+			subtitle: "Very rare"
+			tasks: [{
+				biome: "biomesoplenty:volcano"
+				id: "299E254A3893394D"
+				title: "Volcano"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6DFC1B5C048DE626"]
+			id: "41338F8AB6474B0B"
+			tasks: [{
+				id: "4C5D3742238FF118"
+				title: "To hell"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41338F8AB6474B0B"]
+			description: ["Journey into the mystical Crystalline Forest, a unique biome where the landscape is adorned with towering rose quartz spires and glimmering crystals. This enchanting area is enveloped in a soft pink fog, giving it an otherworldly atmosphere. The forest is both beautiful and treacherous, with crystal formations covering the terrain. Explore carefully, as the shimmering environment may hide both treasures and dangers."]
+			id: "56DEF0B0E65096B4"
+			subtitle: "Hellish"
+			tasks: [{
+				biome: "biomesoplenty:crystalline_chasm"
+				id: "5BA42FDE486F5398"
+				title: "Crystalline Chasm"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41338F8AB6474B0B"]
+			description: ["An active volcanic biome made of brimstone, with magma blocks, lava and brimstone fumaroles generating."]
+			id: "6AC4E21985CDD75B"
+			subtitle: "Hellish"
+			tasks: [{
+				biome: "biomesoplenty:erupting_inferno"
+				id: "2AF97FE6401FBD8E"
+				title: "Erupting Inferno"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41338F8AB6474B0B"]
+			description: ["Venture into the Undergrowth, a densely packed Nether biome teeming with life. This eerie environment is filled with sprouts, bramble, and towering Hellbark trees, creating a thick, almost impenetrable landscape. Spore particles float through the air, adding to the biome's mysterious and haunting atmosphere. As you explore, be prepared to navigate the tangled vegetation and watch for hidden dangers lurking within this overgrown, shadowy terrain."]
+			id: "1818A47BC879FD23"
+			subtitle: "Hellish"
+			tasks: [{
+				biome: "biomesoplenty:undergrowth"
+				id: "5284C18E6626E384"
+				title: "Undergrowth"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41338F8AB6474B0B"]
+			description: ["A gross biome made of flesh and porous flesh, with hair, pus bubbles and flesh tendons. Giant flesh strands spawn frequently here."]
+			id: "1337B12386A0E2A7"
+			subtitle: "Hellish"
+			tasks: [{
+				biome: "biomesoplenty:visceral_heap"
+				id: "3371AA832749A8F1"
+				title: "Visceral Heap"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["41338F8AB6474B0B"]
+			description: ["A dark and spooky biome made of blackstone, obsidian and crying obsidian, with blackstone bulbs and spines generating around the landscape."]
+			id: "0F5B1C864D800E31"
+			subtitle: "Hellish"
+			tasks: [{
+				biome: "biomesoplenty:withered_abyss"
+				id: "286492B68054CD10"
+				title: "Withered Abyss"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41338F8AB6474B0B"]
+			description: ["The Ash barrens are old lava lakes and coast now covered by ashes after Piglins destroyed this land to build their Forbidden castles. Some trees have now regrown on some hilly part of the area, but the flat, covered lava lakes, make you an easy target if you dare to come close to a Forbidden castle."]
+			id: "3AA2667A7071C0AC"
+			subtitle: "Hellish"
+			tasks: [{
+				biome: "incendium:ash_barrens"
+				id: "05B2E4132499F680"
+				title: "Ash barrens"
+				type: "biome"
+			}]
+			title: "Ash Barrens"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["41338F8AB6474B0B"]
+			description: ["The Infernal dunes are blazing hot biomes with red sand and sandstone all around, and red roots hanging from the ceiling. This almost open caves, with gigantic red pillars hides the Infernal altar, a temple with many secrets..."]
+			id: "7B3FB5E0B08FAC55"
+			subtitle: "Hellish"
+			tasks: [{
+				biome: "incendium:infernal_dunes"
+				id: "515FB9FD550D0165"
+				title: "Infernal Dunes"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["41338F8AB6474B0B"]
+			description: ["The Inverted forest is a mutated Warped forest biome, with long, flipped down trees and vines going over other Nether biomes."]
+			id: "1326B9F7B8F081DF"
+			subtitle: "Hellish"
+			tasks: [{
+				biome: "incendium:inverted_forest"
+				id: "683403FD553AF668"
+				title: "Inverted Forest"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["41338F8AB6474B0B"]
+			description: ["The Toxic heap is a polluted Nether biome where the terrain turned green, and yellow near lava. It is believed that this was caused by the Nether reactor that can be found here..."]
+			id: "4B8DECC85BC81926"
+			subtitle: "Hellish"
+			tasks: [{
+				biome: "incendium:toxic_heap"
+				id: "204AE5E875F6E060"
+				title: "Toxic Heap"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["41338F8AB6474B0B"]
+			description: ["The Withered forest is a dark biome, battlefield of a war between Piglins and Wither skeletons. Some tired Headless warriors can be found here alongside the Restless spirits of what is theorized to be fallen Piglins. Even after the dust settled, Withered scientists still conduct research in some Ruined lab hidden around this desolated land."]
+			id: "1CEED6C644369C92"
+			subtitle: "Hellish"
+			tasks: [{
+				biome: "incendium:withered_forest"
+				id: "7B1FF4D0588D70D0"
+				title: "Withered Forest"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6DFC1B5C048DE626"]
+			id: "068216BEC427BC55"
+			tasks: [{
+				id: "57EE9224DE3C33F3"
+				title: "Not home"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["068216BEC427BC55"]
+			description: ["A meteorite can be found anywhere in the wild, often leaving a large crater surrounded by Skystone blocks. Look for dark, smooth stone at the center of the crater, which may contain a valuable Chest. These impact sites are rare, so explore different biomes and be prepared to dig beneath the surface to uncover the hidden meteorite."]
+			id: "6DB5B7B0419D596C"
+			subtitle: "Structure"
+			tasks: [{
+				id: "00A5581546406CA4"
+				structure: "ae2:meteorite"
+				title: "Sky rocks"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["068216BEC427BC55"]
+			description: ["Search the dense, wooded areas for a Pillager Manor, a large, dark mansion that spawns fairly commonly in forested biomes. The structure is massive, with multiple floors, dark oak wood, and cobblestone making up its exterior. Be cautious when approaching, as the manor is home to hostile Pillagers who guard it fiercely. Inside, you'll find various rooms, secret passages, and valuable loot, but be ready for a fight."]
+			id: "7364A83EC385C320"
+			subtitle: "Structure"
+			tasks: [{
+				id: "035AA2B5F5E39C39"
+				structure: "minecraft:illager_manor"
+				title: "Manor of evil"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["068216BEC427BC55"]
+			description: ["Search along the coastlines for an old lighthouse, a tall, weathered structure that once served as a beacon for ships. These lighthouses are built from stone and wood, towering above the surrounding terrain. Often located near the ocean or on small islands, they may show signs of decay but still stand as a prominent feature. Explore the area for hidden treasures or clues to its past, but be wary of any lurking dangers."]
+			id: "0BC138F7F5C566C3"
+			subtitle: "Structure"
+			tasks: [{
+				id: "2B39FBC689311633"
+				structure: "structory_towers:lighthouse"
+				title: "Tower of light"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["068216BEC427BC55"]
+			description: ["Venture into the wilderness to locate an old wizard tower, a tall, mystical structure that once housed powerful magic users. These towers are usually found in remote areas, often on hilltops or deep within forests. Built from stone and other ancient materials, they stand out with their unique architecture and spiral staircases. Inside, you may find remnants of arcane experiments, enchanted books, or magical artifacts. Explore carefully, as the tower may still hold hidden secrets or traps."]
+			id: "7257311B7A2DB697"
+			subtitle: "Structure"
+			tasks: [{
+				id: "47605A2E90D042A9"
+				structure: "structory_towers:wizard_tower"
+				title: "Tower of knowledge"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["068216BEC427BC55"]
+			description: ["In the fiery depths of the Nether, seek out a Piglin village, a settlement built by the Piglins. These villages are often found in the Crimson Forest or other Nether biomes, featuring structures made from Nether materials like Blackstone and Crimson wood. The village is guarded by Piglins, who may attack on sight if you’re not wearing gold armor. Explore the village to find unique loot, but be cautious of the dangerous environment and the aggressive inhabitants."]
+			id: "01E8CBE690CFDAD1"
+			subtitle: "Structure"
+			tasks: [{
+				id: "53E074D871DC87B3"
+				structure: "incendium:piglin_village"
+				type: "structure"
+			}]
+			title: "Home of Piglin"
+			x: 0.0d
+			y: -9.0d
+		}
+	]
+	title: "Explorer"
+}
