@@ -1,0 +1,167 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "unlock"
+	group: ""
+	id: "31B2CDD8FF47F739"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "41D60D866FD0B12A"
+			tasks: [{
+				id: "647D41300A19E7BA"
+				title: "Unlock the futre"
+				type: "checkmark"
+			}]
+			title: "Unlock your future"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "functionalstorage:storage_controller"
+			id: "5CFBDFFD4FF60A48"
+			tasks: [{
+				id: "2B46BA8F2F27C055"
+				title: "Storage"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: "ae2:drive"
+			id: "55559353FE6E4311"
+			tasks: [{
+				id: "3C9114FF69C79DA3"
+				title: "Digital"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: "mekanism:metallurgic_infuser"
+			id: "0FEDC45794FA1F5F"
+			tasks: [{
+				id: "240F28FEA757E404"
+				title: "Machines"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:bee_nest"
+			id: "4411D479F521E550"
+			tasks: [{
+				id: "547260E6B4636A09"
+				title: "Bees"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					contentsUuid: [I;
+						592126329
+						-339852073
+						-1408397194
+						-1828376596
+					]
+					inventorySlots: 27
+					upgradeSlots: 1
+				}
+			}
+			id: "2427BA365B765676"
+			tasks: [{
+				id: "7B7160D9685ADDF6"
+				title: "Backpacks"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon: "create:large_cogwheel"
+			id: "59B2378F162AF543"
+			tasks: [{
+				id: "20F8D0F13C552524"
+				title: "Steampunk"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			icon: "powah:energizing_orb"
+			id: "3326E3A8D49EE13C"
+			tasks: [{
+				id: "5B1CFCAE0D09B48C"
+				title: "Power"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			icon: "extendedcrafting:enhanced_redstone_ingot_block"
+			id: "0994F75B26482C9A"
+			tasks: [{
+				count: 64L
+				id: "08D6FF8434AE33D9"
+				item: "minecraft:stripped_oak_wood"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "460D2CD9C46A6585"
+			tasks: [{
+				id: "478DD87EB8AF83FF"
+				item: "extendedcrafting:redstone_ingot_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			icon: "projecte:alchemical_coal_block"
+			id: "09E171961A957F82"
+			tasks: [{
+				id: "4F3A3DD52AB9A499"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			id: "306CA54B0566F390"
+			tasks: [{
+				id: "64A4A7BEA8217DED"
+				item: "simplylight:illuminant_green_block_on"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			icon: "ars_nouveau:agronomic_sourcelink"
+			id: "08B4423A4EE8B9FB"
+			tasks: [{
+				id: "0BD5B0720E0AF895"
+				title: "Magic"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	title: "Unlock"
+}

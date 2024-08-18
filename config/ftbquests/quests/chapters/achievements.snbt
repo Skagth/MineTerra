@@ -1,0 +1,434 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "achievements"
+	group: ""
+	id: "5F6233A42504FA9E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "77903BBBA08A528E"
+			tasks: [{
+				id: "7E95C239C2C452DF"
+				title: "Become a hero"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["150A23FDB80E627E"]
+			id: "6C7125132F1654BE"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "6021F3511CEBD3B1"
+				type: "kill"
+				value: 20L
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["150A23FDB80E627E"]
+			id: "192F227D5C425B88"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "315347966FEEA7BC"
+				type: "kill"
+				value: 20L
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["150A23FDB80E627E"]
+			id: "7E617BD8AA6AD919"
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "minecraft:ender_pearl"
+				id: "22BFE4720266D1E2"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["150A23FDB80E627E"]
+			id: "62060EC95A0B64C6"
+			tasks: [{
+				entity: "artifacts:mimic"
+				icon: "artifacts:mimic_spawn_egg"
+				id: "60EE218A6E5C37C8"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["150A23FDB80E627E"]
+			id: "3C23CD0A1832483B"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "048DF792AD3318C8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["07E61870C80322F6"]
+			id: "5BB01A4B688619C3"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "11A32F7C38A42AA0"
+				type: "dimension"
+			}]
+			title: "Visit : The Nether"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["07E61870C80322F6"]
+			id: "2ED211B13ADE8A7F"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "46479F4BDEE0F317"
+				title: "Visit : The End"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70D19BC54E77FEB6"]
+			id: "679342966F7FCA99"
+			tasks: [{
+				icon: "biomesoplenty:flesh_tendons"
+				id: "1396D51096BE9923"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 10
+			}]
+			title: "Mob killed : x10"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["70D19BC54E77FEB6"]
+			id: "6749DEA98AEE7FFA"
+			tasks: [{
+				icon: "biomesoplenty:flesh_tendons"
+				id: "40C385C0AD8F1A20"
+				stat: "minecraft:mob_kills"
+				title: "Mob killed : x20"
+				type: "stat"
+				value: 20
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70D19BC54E77FEB6"]
+			id: "41189459A82CCE40"
+			tasks: [{
+				icon: "biomesoplenty:flesh_tendons"
+				id: "505900DB79DD5EED"
+				stat: "minecraft:mob_kills"
+				title: "Mob killed : x50"
+				type: "stat"
+				value: 50
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["77903BBBA08A528E"]
+			id: "150A23FDB80E627E"
+			tasks: [{
+				id: "4B1672206CF76D4D"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77903BBBA08A528E"]
+			id: "70D19BC54E77FEB6"
+			tasks: [{
+				id: "1D8300051F63711B"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70D19BC54E77FEB6"]
+			id: "135AE66075AAC117"
+			tasks: [{
+				icon: "biomesoplenty:flesh_tendons"
+				id: "42E2A1DC5B74E659"
+				stat: "minecraft:mob_kills"
+				title: "Mob killed : x100"
+				type: "stat"
+				value: 100
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77903BBBA08A528E"]
+			id: "07E61870C80322F6"
+			tasks: [{
+				id: "5014C6805E88070D"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77903BBBA08A528E"]
+			id: "1722A8B1FD976B8E"
+			tasks: [{
+				id: "5DDB446984E3CEAE"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1722A8B1FD976B8E"]
+			icon: "waystones:waystone"
+			id: "7F667EE53CA11278"
+			tasks: [{
+				icon: "waystones:waystone"
+				id: "623F5F282B442543"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 10
+			}]
+			title: "Waystones activated x10"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1722A8B1FD976B8E"]
+			id: "1C907A80E2A7B218"
+			tasks: [{
+				icon: "minecraft:bell"
+				id: "3022E9C85252B30E"
+				stat: "minecraft:bell_ring"
+				title: "Bells rung x50"
+				type: "stat"
+				value: 50
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1722A8B1FD976B8E"]
+			id: "0822D5EC445F3753"
+			tasks: [{
+				icon: "minecraft:oak_boat"
+				id: "654C70DA0C9C9563"
+				stat: "minecraft:boat_one_cm"
+				title: "Distance by boat x1000"
+				type: "stat"
+				value: 1000
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1722A8B1FD976B8E"]
+			id: "6579F880665A3BE6"
+			tasks: [{
+				icon: "minecraft:feather"
+				id: "0F4424E4EA14FE4A"
+				stat: "minecraft:fall_one_cm"
+				title: "Distance fallen x100"
+				type: "stat"
+				value: 100
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1722A8B1FD976B8E"]
+			id: "40443CDAFD176885"
+			tasks: [{
+				icon: "artifacts:villager_hat"
+				id: "124A53711A027FD3"
+				stat: "minecraft:traded_with_villager"
+				title: "Traded with villagers x20"
+				type: "stat"
+				value: 20
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77903BBBA08A528E"]
+			id: "75B9CC7AB9E8D015"
+			tasks: [{
+				id: "47D071B5F8640904"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75B9CC7AB9E8D015"]
+			id: "55D1FEDC7775657D"
+			tasks: [{
+				icon: "minecraft:wheat"
+				id: "1DB7E0D8714162C7"
+				stat: "minecraft:pot_flower"
+				title: "Plants plotted x50"
+				type: "stat"
+				value: 50
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75B9CC7AB9E8D015"]
+			id: "486F2548A6815B45"
+			tasks: [{
+				icon: "minecraft:saddle"
+				id: "0F5B1B42F7FE64F6"
+				stat: "minecraft:pig_one_cm"
+				title: "Distance by pig x100"
+				type: "stat"
+				value: 100
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75B9CC7AB9E8D015"]
+			id: "5FDD2503846B16C4"
+			tasks: [{
+				icon: "artifacts:crystal_heart"
+				id: "299FD540CFD37D0D"
+				stat: "minecraft:animals_bred"
+				title: "Animals bred x20"
+				type: "stat"
+				value: 20
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75B9CC7AB9E8D015"]
+			id: "61B4B5C7AEE0F8F7"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "68CD33DC429FD0B5"
+				stat: "minecraft:fish_caught"
+				title: "Fish caught x10"
+				type: "stat"
+				value: 10
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75B9CC7AB9E8D015"]
+			id: "025A69F8FEBBE60B"
+			tasks: [{
+				icon: "minecraft:cake"
+				id: "0D6AC244F8CD756C"
+				stat: "minecraft:eat_cake_slice"
+				title: "Cake slices eaten x21"
+				type: "stat"
+				value: 21
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2838F2302CA915C3"]
+			description: ["Find the exact coordinates (69, 69, 69). It sounds easy—just some quick number crunching and a little walking, right? But don’t be fooled! You’ll probably spend more time than you’d like trying to hit that perfect spot. "]
+			id: "5385496E23835321"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:compass"
+				id: "31DDC7A5752B9EE7"
+				ignore_dimension: false
+				position: [I;
+					69
+					69
+					69
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "Find nr 69"
+				type: "location"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77903BBBA08A528E"]
+			id: "2838F2302CA915C3"
+			tasks: [{
+				id: "0F5B2DE6A19D2190"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2838F2302CA915C3"]
+			description: ["Just dig straight down and you’ll hit bedrock in no time! Except, of course, for the small details like lava lakes, caves, and the occasional pit of doom. How hard can it be to reach the bottom floor? "]
+			icon: "minecraft:bedrock"
+			id: "7E05875FAE729C28"
+			tasks: [{
+				icon: "minecraft:bedrock"
+				id: "004A2A4ED66E6399"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:bedrock"
+				type: "observation"
+			}]
+			title: "Reach the bottom"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2838F2302CA915C3"]
+			description: ["Place and detonate TNT, scientifically known as 2,4,6-Trinitrotoluene, because who wouldn’t want to honor the chemical precision of TNT’s explosive history? "]
+			id: "7FA6DAC97BA79705"
+			tasks: [{
+				block: "minecraft:tnt"
+				block_type: 0
+				icon: "minecraft:tnt"
+				id: "24B58C93E428AF14"
+				replace: false
+				replaced: "minecraft:air"
+				title: "Place TNT x10"
+				type: "questsadditions:place"
+				value: 100L
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+	]
+	title: "Achievements"
+}

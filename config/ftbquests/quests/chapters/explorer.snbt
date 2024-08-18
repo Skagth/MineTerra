@@ -51,7 +51,7 @@
 				title: "Cascading Forest"
 				type: "biome"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -79,19 +79,6 @@
 			}]
 			x: 4.5d
 			y: -1.5d
-		}
-		{
-			dependencies: ["582304835046C03D"]
-			id: "0BBD23B6BF58B031"
-			subtitle: "Magic"
-			tasks: [{
-				biome: "ars_nouveau:archwood_forest"
-				id: "424BC6C32ADA4468"
-				title: "Archwood Forest"
-				type: "biome"
-			}]
-			x: 4.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["6DFC1B5C048DE626"]
