@@ -1,20 +1,19 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "welcome"
-	group: "59B1018A28B0CD8F"
-	id: "30A6D717720DAFCA"
+	filename: "episode_1"
+	group: "165BAC915BF1DB36"
+	id: "054F075132A2654F"
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
-		id: "3B2822EE5EF735E9"
+		id: "6DFB350D439A0910"
 		tasks: [{
-			id: "2196A1DC5DF7D13A"
-			title: "This is the start.."
+			id: "4B9C07DDC4568262"
 			type: "checkmark"
 		}]
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "Welcome"
+	title: "Episode 1"
 }

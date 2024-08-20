@@ -1,3 +1,6 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "59B1018A28B0CD8F", title: "Welcome" }
+		{ id: "165BAC915BF1DB36", title: "Episodes" }
+	]
 }

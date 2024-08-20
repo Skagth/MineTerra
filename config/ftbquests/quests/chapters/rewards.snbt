@@ -1,0 +1,102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rewards"
+	group: "59B1018A28B0CD8F"
+	id: "2F6AE2A80E9FEAF7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "74638F57D947B652"
+			tasks: [{
+				id: "51765233E9C341E7"
+				title: "Reward Program"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "relics:relic_experience_bottle"
+			id: "22ED4D50EA0E796F"
+			rewards: [{
+				id: "277DB17D7E57741C"
+				item: "relics:relic_experience_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38916F3BCFFE93BA"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "074D5192F2EFCECD"
+			tasks: [{
+				id: "510A26D395F8031E"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "668EFB715BEB7402"
+			tasks: [{
+				id: "7A4D08BEC69BFDEA"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "relics:spatial_sign"
+				tag: {
+					abilities: {
+						seal: {
+							points: 0
+							stats: {
+								time: 3.19436d
+							}
+						}
+					}
+					pos: "[\"17.0,78.0,-19.1\"]"
+					world: "minecraft:overworld"
+				}
+			}
+			id: "41EDEF6D22D09A21"
+			rewards: [{
+				id: "762A3B9CA50FA975"
+				item: {
+					Count: 1b
+					id: "relics:spatial_sign"
+					tag: {
+						abilities: {
+							seal: {
+								points: 0
+								stats: {
+									time: 3.19436d
+								}
+							}
+						}
+						pos: "[\"17.0,78.0,-19.1\"]"
+						world: "minecraft:overworld"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AB51F0CA36B62AD"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+	title: "Rewards"
+}

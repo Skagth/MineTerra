@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "achievements"
-	group: ""
+	group: "59B1018A28B0CD8F"
 	id: "5F6233A42504FA9E"
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -91,7 +91,7 @@
 				type: "dimension"
 			}]
 			title: "Visit : The Nether"
-			x: 4.5d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -103,7 +103,7 @@
 				title: "Visit : The End"
 				type: "dimension"
 			}]
-			x: 4.5d
+			x: -3.0d
 			y: 3.0d
 		}
 		{
@@ -189,7 +189,7 @@
 				id: "5014C6805E88070D"
 				type: "checkmark"
 			}]
-			x: 4.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -280,8 +280,8 @@
 				id: "47D071B5F8640904"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["75B9CC7AB9E8D015"]
@@ -295,7 +295,7 @@
 				value: 50
 			}]
 			x: -1.5d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["75B9CC7AB9E8D015"]
@@ -308,8 +308,8 @@
 				type: "stat"
 				value: 100
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["75B9CC7AB9E8D015"]
@@ -322,8 +322,8 @@
 				type: "stat"
 				value: 20
 			}]
-			x: -4.5d
-			y: -1.5d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["75B9CC7AB9E8D015"]
@@ -342,8 +342,8 @@
 				type: "stat"
 				value: 10
 			}]
-			x: -6.0d
-			y: -1.5d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["75B9CC7AB9E8D015"]
@@ -356,8 +356,8 @@
 				type: "stat"
 				value: 21
 			}]
-			x: -7.5d
-			y: -1.5d
+			x: -1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2838F2302CA915C3"]
@@ -381,8 +381,8 @@
 				title: "Find nr 69"
 				type: "location"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["77903BBBA08A528E"]
@@ -391,8 +391,8 @@
 				id: "0F5B2DE6A19D2190"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2838F2302CA915C3"]
@@ -408,8 +408,8 @@
 				type: "observation"
 			}]
 			title: "Reach the bottom"
-			x: -4.5d
-			y: 3.0d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2838F2302CA915C3"]
@@ -426,8 +426,92 @@
 				type: "questsadditions:place"
 				value: 100L
 			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77903BBBA08A528E"]
+			id: "6D587A480166C48F"
+			tasks: [{
+				id: "32DDCBD9D416B970"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D587A480166C48F"]
+			id: "00821DD2494D032F"
+			tasks: [{
+				block: "minecraft:dirt"
+				block_type: 0
+				checkItem: false
+				icon: "minecraft:dirt"
+				id: "5C066BF320A15DB5"
+				type: "questsadditions:break"
+				value: 50L
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D587A480166C48F"]
+			id: "58E0771316C2A48F"
+			tasks: [{
+				block: "minecraft:stone"
+				block_type: 0
+				checkItem: false
+				id: "4D1DC990B65BDAEB"
+				type: "questsadditions:break"
+				value: 100L
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D587A480166C48F"]
+			id: "3B5A941F4DDD910E"
+			tasks: [{
+				block: "minecraft:iron_ore"
+				block_type: 0
+				checkItem: false
+				icon: "minecraft:iron_ore"
+				id: "7D89C6915EC3FB52"
+				type: "questsadditions:break"
+				value: 50L
+			}]
 			x: -6.0d
-			y: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D587A480166C48F"]
+			id: "46FD3CC629CA0E46"
+			tasks: [{
+				block: "minecraft:copper_ore"
+				block_type: 0
+				icon: "minecraft:copper_ore"
+				id: "190A0609111494C6"
+				replace: false
+				replaced: "minecraft:air"
+				type: "questsadditions:place"
+				value: 50L
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D587A480166C48F"]
+			id: "20BB2FE6CC354E5D"
+			tasks: [{
+				block: "minecraft:gold_ore"
+				block_type: 0
+				checkItem: false
+				id: "3E7942C932732BC9"
+				type: "questsadditions:break"
+				value: 50L
+			}]
+			x: -9.0d
+			y: -1.5d
 		}
 	]
 	title: "Achievements"

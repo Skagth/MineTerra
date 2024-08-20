@@ -1,0 +1,17 @@
+{
+	id: "3CA4730164704F53"
+	loot_size: 3
+	order_index: 0
+	rewards: [
+		{
+			command: "/gamestage add @p Backpack_stage true"
+			icon: "minecraft:granite"
+			silent: true
+			title: "Unlocks : Backpacks"
+			type: "command"
+		}
+		{ count: 3, item: "minecraft:leather", random_bonus: 2 }
+		{ item: "minecraft:string" }
+	]
+	title: "Unlocks Backpack"
+}
