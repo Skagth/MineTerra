@@ -1,0 +1,21 @@
+
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:coal",
+      "count": 2
+    },
+    {
+      "item": "minecraft:coal",
+      "count": 1,
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 50
+}

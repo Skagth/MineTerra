@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "minecraft:logs"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:sap",
+      "count": 2
+    },
+    {
+      "item": "farmersdelight:tree_bark",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 100
+}

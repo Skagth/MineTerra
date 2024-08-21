@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sand",
+      "amount": 1
+    },
+    {
+      "fluid": "minecraft:lava",
+      "nbt": {},
+      "amount": 25
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:red_sand",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "none"
+}

@@ -1,0 +1,19 @@
+{
+	id: "44D6CC7DD3E05BEE"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			command: "/gamestage add @p productivebees_stage true"
+			icon: "kubejs:plq_crp"
+			silent: true
+			title: "Unlocks : Productive Bees"
+			type: "command"
+		}
+		{ count: 4, item: "minecraft:honey_bottle", random_bonus: 6 }
+		{ item: "minecraft:bee_nest" }
+		{ item: "minecraft:bee_spawn_egg" }
+		{ count: 4, item: "minecraft:honeycomb", random_bonus: 8 }
+	]
+	title: "Bee 5"
+}

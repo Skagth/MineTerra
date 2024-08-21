@@ -1,0 +1,15 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "kubejs:blobcheese"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:americheese",
+      "count": 4
+    }
+  ],
+  "processingTime": 10
+}

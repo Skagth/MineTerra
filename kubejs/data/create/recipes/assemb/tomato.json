@@ -1,0 +1,34 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "farmersdelight:tomato"
+  },
+  "transitionalItem": {
+    "item": "farmersdelight:tomato"
+  },
+  "sequence": [	
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "farmersdelight:tomato"
+        },
+        {
+          "item": "farmersdelight:diamond_knife"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:tomatoslice"
+        }
+      ]
+    }	
+  ],  
+  "results": [
+    {
+      "item": "kubejs:tomatoslice",
+      "chance": 122.0
+    }	
+  ],
+  "loops": 1
+}

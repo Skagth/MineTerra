@@ -1,0 +1,16 @@
+{
+	id: "59B0A8E0A00F24AC"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			command: "/gamestage add @p functionalstorage_stage true"
+			icon: "kubejs:plq_crp"
+			silent: true
+			title: "Unlocks : Functional Storage"
+			type: "command"
+		}
+		{ item: "rottencreatures:treasure_chest" }
+	]
+	title: "funcstore 2"
+}

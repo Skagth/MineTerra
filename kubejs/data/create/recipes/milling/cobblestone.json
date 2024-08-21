@@ -1,0 +1,21 @@
+
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:diorite",
+      "count": 1,
+      "chance": 0.7	  
+    },
+    {
+      "item": "minecraft:gravel",
+      "count": 1
+    }	
+  ],
+  "processingTime": 50
+}

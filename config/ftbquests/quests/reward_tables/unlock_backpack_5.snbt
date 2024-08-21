@@ -1,0 +1,20 @@
+{
+	id: "297303DCD4A4FADE"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 2, item: "minecraft:leather", random_bonus: 2 }
+		{ item: "minecraft:string" }
+		{ item: "mob_grinding_utils:solid_xp_baby" }
+		{ item: "minecraft:baked_potato" }
+		{
+			auto: "enabled"
+			command: "/gamestage add @p Backpack_stage true"
+			icon: "kubejs:plq_crp"
+			silent: true
+			title: "Unlocks : Backpacks"
+			type: "command"
+		}
+	]
+	title: "Unlock Backpack 5"
+}

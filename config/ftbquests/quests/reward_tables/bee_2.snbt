@@ -1,0 +1,16 @@
+{
+	id: "177B588B6E4E3447"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			command: "/gamestage add @p productivebees_stage true"
+			icon: "kubejs:plq_crp"
+			silent: true
+			title: "Unlocks : Productive Bees"
+			type: "command"
+		}
+		{ item: "farmersdelight:honey_cookie" }
+	]
+	title: "Bee 2"
+}

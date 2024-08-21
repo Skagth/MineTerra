@@ -8,6 +8,11 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"To progress in the modpack and unlock new technological possibilities, you’ll need to contribute some of your resources. Think of it as a donation with a chance to win big. As you offer up resources, there’s a possibility you’ll unlock the tech you need through a bit of RNG luck. However, if luck isn’t on your side, don’t worry—you can still secure the unlock by spending just 1 level of XP."
+				""
+				"Each gamble has different odds: with a Gamble x5, five items are in the random table, giving you a 20% chance for an unlock. If you don't hit the jackpot, you can try again with Gamble x3 or Gamble x2, each with better odds. If luck still isn’t on your side, you can always buy the unlock outright for just 1 level of XP in the end."
+			]
 			id: "41D60D866FD0B12A"
 			tasks: [{
 				id: "647D41300A19E7BA"
@@ -19,6 +24,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["41D60D866FD0B12A"]
+			description: ["Functional Storage is a mod that adds customizable and expandable storage solutions to Minecraft. It features various storage drawers and containers, each with upgradeable capacity and functionality, like locking or compacting items. The mod also integrates well with automation setups, making it easier to manage and organize large quantities of resources. It’s a practical tool for efficient inventory management and storage expansion."]
 			icon: "functionalstorage:storage_controller"
 			id: "5CFBDFFD4FF60A48"
 			tasks: [{
@@ -27,9 +34,11 @@
 				type: "checkmark"
 			}]
 			x: -4.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["41D60D866FD0B12A"]
+			description: ["Applied Energistics 2 (AE2) is a tech mod centered around advanced storage solutions and item management. It introduces a digital storage system, allowing you to store vast amounts of items in a compact, easily accessible network. The mod features complex automation tools, including crafting processors and storage cells, enabling efficient resource management and automated crafting. AE2 is essential for players looking to streamline their inventory and create highly efficient, tech-driven setups."]
 			icon: "ae2:drive"
 			id: "55559353FE6E4311"
 			tasks: [{
@@ -37,10 +46,12 @@
 				title: "Digital"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
+			dependencies: ["41D60D866FD0B12A"]
+			description: ["Mekanism is a comprehensive tech mod that introduces advanced machinery, energy generation, and automation tools to Minecraft. It features a wide range of machines for ore processing, energy production, and resource multiplication, including complex systems like fusion reactors and quantum entanglement transporters. The mod also includes a robust set of pipes and cables for fluid, gas, and energy transfer, making it a powerful tool for building highly efficient industrial setups."]
 			icon: "mekanism:metallurgic_infuser"
 			id: "0FEDC45794FA1F5F"
 			tasks: [{
@@ -48,10 +59,12 @@
 				title: "Machines"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
+			dependencies: ["41D60D866FD0B12A"]
+			description: ["Productive Bees is a mod that introduces a wide variety of bees, each capable of producing different resources. By breeding and managing these bees, players can automate the production of valuable materials like ores, honey, and even mod-specific items. The mod also features customizable bee hives and breeding environments, allowing for tailored resource generation. It's a great way to integrate farming and automation into your gameplay."]
 			icon: "minecraft:bee_nest"
 			id: "4411D479F521E550"
 			tasks: [{
@@ -60,9 +73,11 @@
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["41D60D866FD0B12A"]
+			description: ["Sophisticated Backpacks is a mod that enhances storage in Minecraft by adding customizable backpacks. These backpacks come with various tiers, each offering more storage space and upgrade slots. You can equip them with different upgrades like auto-pickup, filtering, and more, allowing for flexible inventory management on the go. The mod also integrates with other mods, making it a versatile tool for any adventure."]
 			icon: {
 				Count: 1b
 				id: "sophisticatedbackpacks:backpack"
@@ -83,10 +98,12 @@
 				title: "Backpacks"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: 0.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
+			dependencies: ["41D60D866FD0B12A"]
+			description: ["Create is a mod focused on immersive and innovative machinery and automation in Minecraft. It offers a variety of mechanical components and systems, including rotating gears, conveyor belts, and intricate contraptions, allowing players to build complex machines and automate processes. The mod emphasizes creativity and engineering, providing tools for both simple and elaborate setups. Create is ideal for players looking to explore engineering and automation with a hands-on, mechanical approach."]
 			icon: "create:large_cogwheel"
 			id: "59B2378F162AF543"
 			tasks: [{
@@ -94,10 +111,12 @@
 				title: "Steampunk"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["41D60D866FD0B12A"]
+			description: ["Powah is a tech mod focused on energy generation and management in Minecraft. It provides a range of powerful generators, energy storage options, and energy transfer systems that are easy to set up and use. The mod includes different tiers of energy solutions, from simple early-game generators to advanced reactors and batteries, allowing for scalable power systems. Powah integrates smoothly with other tech mods, making it a versatile choice for powering your automation projects."]
 			icon: "powah:energizing_orb"
 			id: "3326E3A8D49EE13C"
 			tasks: [{
@@ -105,10 +124,15 @@
 				title: "Power"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["41D60D866FD0B12A"]
+			description: [
+				""
+				"Ars Nouveau is a magic mod that introduces a flexible and customizable spellcasting system to Minecraft. It allows players to create and use a wide range of spells by combining different components and effects, offering a deep and intuitive magic experience. The mod also includes magical equipment, crafting systems, and unique magical structures, enabling players to develop their own magical practices and enhance their gameplay with powerful and versatile spells."
+			]
 			icon: "ars_nouveau:agronomic_sourcelink"
 			id: "08B4423A4EE8B9FB"
 			tasks: [{
@@ -116,64 +140,674 @@
 				title: "Magic"
 				type: "checkmark"
 			}]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			id: "186C303A15CFA858"
-			rewards: [{
-				auto: "invisible"
-				icon: "minecraft:granite"
-				id: "0FA668CC3C99025A"
-				ignore_reward_blocking: true
-				stage: "backpack_stage"
-				title: "Unlocks : Backpacks"
-				type: "gamestage"
-			}]
-			tasks: [{
-				id: "2A17F202428EB70D"
-				title: "YAY"
-				type: "checkmark"
-			}]
-			x: 7.5d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
-			id: "018A05AFDF25DAE4"
-			rewards: [{
-				command: "/gamestage add @p Backpack_stage true"
-				icon: "minecraft:granite"
-				id: "6D86DCF9A65DD80B"
-				silent: true
-				title: "Unlocks : Backpacks"
-				type: "command"
-			}]
-			tasks: [{
-				id: "6466216149E241C6"
-				title: "YAY2"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: 1.5d
-		}
-		{
+			dependencies: ["41D60D866FD0B12A"]
+			description: ["Mob Grind Utils is a mod that enhances mob farming and grinding in Minecraft. It introduces a variety of tools and machines for efficient mob capture, killing, and item collection, including powerful mob grinders and filters. The mod also adds utility items like upgraded spawners and various ways to increase mob drops. It’s ideal for players looking to streamline mob farms and maximize their loot."]
 			id: "558F900527B44F80"
 			tasks: [{
 				id: "644A0FD3E9576320"
 				item: "mob_grinding_utils:saw"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
-			id: "78C3223C6CAE273B"
+			dependencies: ["2559A427FC53A457"]
+			icon: "kubejs:dice"
+			id: "4FF8BAF3C329F8AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FB746BA9321A61B"
+				table_id: 4369743988273467219L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 9L
+					id: "6EEB2847FF9BA126"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "62D0834ECF60E6B4"
+					item: "minecraft:leather_horse_armor"
+					type: "item"
+				}
+			]
+			title: "Gamble x3"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2427BA365B765676"]
+			icon: "kubejs:dice"
+			id: "2559A427FC53A457"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E5338DEB02A8778"
+				table_id: 2986735224872041182L
+				type: "random"
+			}]
 			tasks: [{
-				id: "289C542FEB742AD0"
-				type: "checkmark"
+				count: 9L
+				id: "56C18D83FBC0ACAB"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			title: "Gamble x5"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4FF8BAF3C329F8AD"]
+			icon: "kubejs:dice"
+			id: "27AB5BFBD9ED12C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D27A5D70CC20F4D"
+				table_id: 5351663837883822362L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 9L
+					id: "1964B4E3EB9F2365"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "256BA5B682CB77BA"
+					item: "minecraft:leather_horse_armor"
+					type: "item"
+				}
+				{
+					id: "5638F04708BC4E75"
+					item: "forbidden_arcanus:rotten_leather"
+					type: "item"
+				}
+			]
+			title: "Gamble x2"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27AB5BFBD9ED12C0"]
+			icon: "kubejs:plq_crp"
+			id: "5D70FBA208BD6050"
+			rewards: [{
+				command: "/gamestage add @p Backpack_stage true"
+				icon: "kubejs:plq_crp"
+				id: "05799400BD1BEE95"
+				silent: true
+				title: "Unlocks : Backpacks"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0B67143FB09EFA16"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			title: "Unlocks : Backpacks"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4411D479F521E550"]
+			icon: "kubejs:dice"
+			id: "1652628EE7E5BA2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A0309B3B885AEF1"
+				table_id: 4960376880392854510L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0AA514E0F9A14476"
+				item: "minecraft:honey_block"
+				type: "item"
+			}]
+			title: "Gamble x5"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1652628EE7E5BA2F"]
+			icon: "kubejs:dice"
+			id: "51551C50B6F2C79C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BE8CC412D121A4E"
+				table_id: 4369743988273467219L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0085CF03DA801110"
+					item: "minecraft:honey_block"
+					type: "item"
+				}
+				{
+					id: "7D33D052C3EABE50"
+					item: "farmersdelight:honey_cookie"
+					type: "item"
+				}
+			]
+			title: "Gamble x3"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["51551C50B6F2C79C"]
+			icon: "kubejs:dice"
+			id: "1DCE5179EB484F16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D776E169B45A23E"
+				table_id: 1692043440882070599L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "6790037F65500942"
+					item: "minecraft:honey_block"
+					type: "item"
+				}
+				{
+					id: "5109878148141036"
+					item: "farmersdelight:honey_cookie"
+					type: "item"
+				}
+				{
+					id: "6C6D307DA549B27D"
+					item: "minecraft:bee_nest"
+					type: "item"
+				}
+			]
+			title: "Gamble x2"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1DCE5179EB484F16"]
+			icon: "kubejs:plq_crp"
+			id: "793C4CE6F46EC5D7"
+			rewards: [{
+				command: "/gamestage add @p productivebees_stage true"
+				icon: "kubejs:plq_crp"
+				id: "7E4CE02435D8C83A"
+				silent: true
+				title: "Unlocks : Productive Bees"
+				type: "command"
+			}]
+			tasks: [{
+				id: "38F675ACC1280512"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5CFBDFFD4FF60A48"]
+			icon: "kubejs:dice"
+			id: "1200A468C403A36C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "536571886E4D0D8D"
+				table_id: 8761066786737482039L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "17827D7B096B1761"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:chest"
+					tag: {
+						woodType: "dark_oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gamble x5"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1200A468C403A36C"]
+			icon: "kubejs:dice"
+			id: "3D892E6219D96090"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C262105DCB703FD"
+				table_id: 1779120051427735820L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "19DB65A832C7CD2A"
+					item: {
+						Count: 1b
+						id: "sophisticatedstorage:chest"
+						tag: {
+							woodType: "dark_oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "358B5A3FB2542521"
+					item: {
+						Count: 1b
+						id: "sophisticatedstorage:copper_chest"
+						tag: {
+							woodType: "dark_oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gamble x3"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D892E6219D96090"]
+			icon: "kubejs:dice"
+			id: "65920C1277BE9C60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DE93C34344224DD"
+				table_id: 6462851147988149420L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0E60E91F2A9D46E7"
+					item: {
+						Count: 1b
+						id: "sophisticatedstorage:chest"
+						tag: {
+							woodType: "dark_oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A179A49A9849F28"
+					item: {
+						Count: 1b
+						id: "sophisticatedstorage:copper_chest"
+						tag: {
+							woodType: "dark_oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04DB50BD7DD79536"
+					item: "minecraft:dark_oak_chest_boat"
+					type: "item"
+				}
+			]
+			title: "Gamble x2"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["65920C1277BE9C60"]
+			icon: "kubejs:plq_crp"
+			id: "6F76B7AB5A9D297A"
+			rewards: [{
+				command: "/gamestage add @p functionalstorage_stage true"
+				icon: "kubejs:plq_crp"
+				id: "67A503D0042DD0AA"
+				silent: true
+				title: "Unlocks : Functional Storage"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0A7434BE0F32268D"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "7119242136EF934E"
+			tasks: [{
+				id: "4C4C9889636D7ED5"
+				item: {
+					Count: 1b
+					id: "betterfurnacesreforged:iron_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Gamble x5"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "220A925813615D4B"
+			tasks: [
+				{
+					id: "20831575A877BF26"
+					item: {
+						Count: 1b
+						id: "betterfurnacesreforged:iron_furnace"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4156E49FC7FEE6EE"
+					item: {
+						Count: 1b
+						id: "betterfurnacesreforged:copper_furnace"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Gamble x3"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "0721D088DB3F58CF"
+			tasks: [
+				{
+					id: "7F5DEE93D0116006"
+					item: {
+						Count: 1b
+						id: "betterfurnacesreforged:iron_furnace"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2D19D5488DF427B8"
+					item: {
+						Count: 1b
+						id: "betterfurnacesreforged:copper_furnace"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1BA7A4FDE826A0AC"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			title: "Gamble x2"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			icon: "kubejs:plq_crp"
+			id: "22D456BF521F39B4"
+			tasks: [{
+				id: "02CC1059144E2ED2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "6F890F183A3ACE6D"
+			tasks: [{
+				count: 9L
+				id: "5EF5003C10D29CFC"
+				item: "extendedcrafting:redstone_ingot"
+				type: "item"
+			}]
+			title: "Gamble x5"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "50F22388ABE68C0D"
+			tasks: [
+				{
+					count: 9L
+					id: "401312FD62773FEA"
+					item: "extendedcrafting:redstone_ingot"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "186A7E40EBE72C4F"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+			]
+			title: "Gamble x3"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "54F7BBD62B87B8AF"
+			tasks: [
+				{
+					count: 9L
+					id: "3E60B59B71D2109C"
+					item: "extendedcrafting:redstone_ingot"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "184653AC88606E09"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					id: "32C5F263964C4BE4"
+					item: "minecraft:clock"
+					type: "item"
+				}
+			]
+			title: "Gamble x2"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			icon: "kubejs:plq_crp"
+			id: "49933EA8CCDD3807"
+			tasks: [{
+				id: "2EFFBDD25B935C1F"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "38AF002563E19FBF"
+			tasks: [{
+				id: "762A7188A4337938"
+				type: "item"
+			}]
+			title: "Gamble x5"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "1D40BCAABDC49CD7"
+			tasks: [{
+				id: "2D06648C48E6F9DA"
+				type: "item"
+			}]
+			title: "Gamble x3"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "37BFF4FF1D59C497"
+			tasks: [{
+				id: "11E61ED760A12E3C"
+				type: "item"
+			}]
+			title: "Gamble x2"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			icon: "kubejs:plq_crp"
+			id: "257D8C45D4C74457"
+			tasks: [{
+				id: "48DF45DCDBEFD460"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "02D8E44AF444552C"
+			tasks: [{
+				id: "2D59FEBE4FCA337B"
+				type: "item"
+			}]
+			title: "Gamble x5"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "179B18F0B1A0E795"
+			tasks: [{
+				id: "7B2439BF96F27395"
+				type: "item"
+			}]
+			title: "Gamble x3"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "5B80F62B940F48F2"
+			tasks: [{
+				id: "286CE0B62F0D851C"
+				type: "item"
+			}]
+			title: "Gamble x2"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			icon: "kubejs:plq_crp"
+			id: "0433856D25EE9665"
+			tasks: [{
+				id: "23727FFA7621F361"
+				type: "item"
 			}]
 			x: -1.5d
-			y: 0.0d
+			y: 7.5d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "12A4890D14636B06"
+			tasks: [{
+				id: "4BBF0BF7A90D3478"
+				type: "item"
+			}]
+			title: "Gamble x5"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "0AB6DB8083812107"
+			tasks: [{
+				id: "39DF66D250136669"
+				type: "item"
+			}]
+			title: "Gamble x3"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "29B10DCBE2638119"
+			tasks: [{
+				id: "269A527B105DA94D"
+				type: "item"
+			}]
+			title: "Gamble x2"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			icon: "kubejs:plq_crp"
+			id: "4B6906CBD5D67BF1"
+			tasks: [{
+				id: "5076411AD573CE23"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "201E38379EA80AC0"
+			tasks: [{
+				id: "6B9E153C89BA016A"
+				type: "item"
+			}]
+			title: "Gamble x5"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "594345407C4A4FD0"
+			tasks: [{
+				id: "551552D32255E440"
+				type: "item"
+			}]
+			title: "Gamble x3"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			icon: "kubejs:dice"
+			id: "4D8FE996245F19F1"
+			tasks: [{
+				id: "700C28E7DCE2C3D8"
+				type: "item"
+			}]
+			title: "Gamble x2"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			icon: "kubejs:plq_crp"
+			id: "01CE0D1404656AC7"
+			tasks: [{
+				id: "3577D4D80B20398A"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
 		}
 	]
 	title: "Unlock"

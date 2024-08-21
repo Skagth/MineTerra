@@ -1,0 +1,17 @@
+
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mob_grinding_utils:solid_xp_baby"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_sa:heap_of_experience",
+      "count": 1,
+      "chance": 0.4
+    }
+  ],
+  "processingTime": 50
+}

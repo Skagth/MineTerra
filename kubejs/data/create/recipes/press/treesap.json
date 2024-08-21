@@ -1,0 +1,16 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "minecraft:logs"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:sap",
+      "count": 2
+    }
+  ],
+  "processingTime": 10
+}
+

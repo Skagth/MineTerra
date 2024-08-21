@@ -1,0 +1,15 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {"item": "create_sa:heap_of_experience"},
+    "B": {"item": "kubejs:deadstar"}	
+  },
+  "result": {
+    "item": "minecraft:nether_star"
+  }
+}

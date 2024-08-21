@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sand",
+      "amount": 1      
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 25
+    }
+  ],
+  "results": [
+    {
+      "item": "byg:blue_sand",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "none"
+}

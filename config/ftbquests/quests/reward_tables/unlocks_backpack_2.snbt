@@ -1,0 +1,16 @@
+{
+	id: "4A44EDE7FE5E711A"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			command: "/gamestage add @p Backpack_stage true"
+			icon: "kubejs:plq_crp"
+			silent: true
+			title: "Unlocks : Backpacks"
+			type: "command"
+		}
+		{ count: 32, item: "mob_grinding_utils:solid_xp_baby", random_bonus: 32 }
+	]
+	title: "Unlocks Backpack 2"
+}

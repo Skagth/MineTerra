@@ -1,0 +1,25 @@
+{
+	id: "18B0B442B61FF90C"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			command: "/gamestage add @p functionalstorage_stage true"
+			icon: "kubejs:plq_crp"
+			silent: true
+			title: "Unlocks : Functional Storage"
+			type: "command"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 4, item: "biomesoplenty:redwood_sapling", random_bonus: 8 }
+	]
+	title: "funcstore 3"
+}

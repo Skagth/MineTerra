@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:sand"
+  },
+  "result": "minecraft:red_sand",
+  "experience": 0.0,
+  "cookingtime": 5
+}

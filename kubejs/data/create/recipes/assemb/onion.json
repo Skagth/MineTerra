@@ -1,0 +1,34 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "farmersdelight:onion"
+  },
+  "transitionalItem": {
+    "item": "farmersdelight:onion"
+  },
+  "sequence": [	
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "farmersdelight:onion"
+        },
+        {
+          "item": "farmersdelight:diamond_knife"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:onionslice"
+        }
+      ]
+    }	
+  ],  
+  "results": [
+    {
+      "item": "kubejs:onionslice",
+      "chance": 500.0
+    }
+  ],
+  "loops": 1
+}

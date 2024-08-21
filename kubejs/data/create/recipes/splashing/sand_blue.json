@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:splashing",
+  "ingredient": {
+    "item": "minecraft:sand"
+  },
+  "result": "byg:blue_sand",
+  "experience": 0.0,
+  "cookingtime": 5
+}

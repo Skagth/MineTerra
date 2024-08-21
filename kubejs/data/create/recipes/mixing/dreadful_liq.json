@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 500
+    },
+    {
+      "item": "minecraft:bone",
+      "amount": 1
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "amount": 1
+    },	
+    {
+      "item": "minecraft:spider_eye",
+      "amount": 1
+    }
+  ],
+  "results": [
+    {
+
+      "fluid": "kubejs:dreadful_fluid_fluid",
+      "nbt": {},
+      "amount": 250
+    }
+  ],
+  "heatRequirement": "none"
+}
+

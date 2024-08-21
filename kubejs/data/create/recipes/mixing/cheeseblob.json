@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "kubejs:cheese_fluid",
+      "nbt": {},
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:blobcheese",
+      "amount": 2
+    }
+  ],
+  "heatRequirement": "none"
+}
+

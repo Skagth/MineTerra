@@ -1,0 +1,26 @@
+
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_terracotta"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:blue_dye",
+      "count": 2  
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "count": 1,
+      "chance": 0.8	 	  
+    },
+    {
+      "item": "aquaculture:neptunium_nugget",
+      "count": 1,
+      "chance": 0.6	 	  
+    }	
+  ],
+  "processingTime": 50
+}

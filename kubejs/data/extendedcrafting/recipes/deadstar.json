@@ -1,0 +1,14 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [" A ","BEC"," D "],
+  "key": {
+    "A": {"item": "thermal:lumium_ingot"},
+    "B": {"item": "thermal:signalum_ingot"},
+    "C": {"item": "thermal:enderium_ingot"},
+    "D": {"item": "simplecorinthium:corinthium_ingot"},
+    "E": {"item": "minecraft:diamond_block"}	
+  },
+  "result": {
+    "item": "kubejs:deadstar"
+  }
+}

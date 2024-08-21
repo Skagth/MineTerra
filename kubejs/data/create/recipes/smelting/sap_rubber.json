@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "kubejs:sap"
+  },
+  "result": "kubejs:rubber",
+  "experience": 0.0,
+  "cookingtime": 5
+}

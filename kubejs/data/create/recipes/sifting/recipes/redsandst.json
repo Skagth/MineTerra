@@ -1,0 +1,19 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "minecraft:red_sandstone"
+    },
+    {
+      "item": "createsifter:string_mesh"
+    }
+  ],
+  "results": [
+    {
+      "item": "cinderscapes:rose_quartz",
+      "chance": 0.9
+    }
+  ],
+  "processingTime": 100,
+  "waterlogged": false
+}
